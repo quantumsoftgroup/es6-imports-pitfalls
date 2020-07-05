@@ -3,12 +3,16 @@
   "description": "Example for a talk, realted to es6 imports pitfalls",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "jest",
+    "start": "parcel src/index.html"
   },
   "author": "malykhinvi",
   "private": true,
   "dependencies": {
+    "@types/react": "^16.9.41",
+    "@types/react-dom": "^16.9.8",
     "@types/react-redux": "^7.1.9",
+    "parcel-bundler": "^1.12.4",
     "react": "^16.13.1",
     "react-dom": "^16.13.1",
     "react-redux": "^7.2.0",

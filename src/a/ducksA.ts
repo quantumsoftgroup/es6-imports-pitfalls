@@ -1,5 +1,7 @@
-export interface IFeatureA {}
+export interface IFeatureA {
+  title: string;
+}
 
 export default (state: IFeatureA): IFeatureA => {
-  return {};
+  return { title: "Feature A" };
 };
