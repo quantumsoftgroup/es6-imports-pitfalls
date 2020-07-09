@@ -1,7 +1,7 @@
 {
   "name": "es6-imports-pitfalls",
-  "description": "Example for a talk, realted to es6 imports pitfalls",
-  "main": "index.js",
+  "description": "Example for a talk, realated to es6 imports pitfalls",
+  "main": "src/index.html",
   "scripts": {
     "test": "jest",
     "start": "parcel src/index.html"
@@ -12,7 +12,7 @@
     "@types/react": "^16.9.41",
     "@types/react-dom": "^16.9.8",
     "@types/react-redux": "^7.1.9",
-    "parcel-bundler": "^1.12.4",
+    "parcel": "^2.0.0-beta.1",
     "react": "^16.13.1",
     "react-dom": "^16.13.1",
     "react-redux": "^7.2.0",
