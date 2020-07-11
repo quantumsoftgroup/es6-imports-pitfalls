@@ -1,7 +1,7 @@
 import * as React from "react";
 import { useSelector } from "react-redux";
-import { IStore } from "../configureStore";
-import { IDataB } from "./reducerB";
+import IStore from "../IStore";
+import IDataB from "./IDataB";
 
 const ComponentB = () => {
   const data = useSelector<IStore, IDataB>((store) => store.b);
