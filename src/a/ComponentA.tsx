@@ -1,12 +1,12 @@
 import * as React from "react";
 import { useSelector } from "react-redux";
 import { IStore } from "../configureStore";
-import { IFeatureA } from "./ducksA";
+import { IDataA } from "./reducerA";
 
-const FeatureA = () => {
-  const data = useSelector<IStore, IFeatureA>((store) => store.a);
+const ComponentA = () => {
+  const data = useSelector<IStore, IDataA>((store) => store.a);
 
   return <h1>{data.title}</h1>;
 };
 
-export default FeatureA;
+export default ComponentA;
