@@ -1,9 +1,9 @@
 import { describe, test, expect } from "@jest/globals";
-import ComponentA from "./ComponentA";
+import App from "./App";
 
-describe("ComponentA", () => {
+describe("App", () => {
   test("fake test case", () => {
-    console.log(ComponentA);
+    console.log(App);
     expect(true).toBe(true);
   });
 });
