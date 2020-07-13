@@ -1,11 +1,6 @@
 import { combineReducers, createStore } from "redux";
-import reducerA, { IDataA } from "./a/reducerA";
-import reducerB, { IDataB } from "./b/reducerB";
-
-export interface IStore {
-  a: IDataA;
-  b: IDataB;
-}
+import reducerA from "./a/reducerA";
+import reducerB from "./b/reducerB";
 
 const configureStore = () => {
   return createStore(

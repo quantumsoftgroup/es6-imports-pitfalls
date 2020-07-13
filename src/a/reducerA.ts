@@ -1,7 +1,3 @@
-export interface IDataA {
-  title: string;
-}
-
-export default (state: IDataA): IDataA => {
+export default () => {
   return { title: "Feature A" };
 };
